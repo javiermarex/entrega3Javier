@@ -1,0 +1,14 @@
+.contenedor {
+    background-color: black;
+    height: 50vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0.625rem;
+}
+
+.contenedorInicio { background-image: url("../assets/img/fondo-inicio-header.jpg"); }
+.contenedorHipHop { background-image: url("../assets/img/fondo-inicio-hiphop.jpg"); }
+.contenedorDancehall { background-image: url("../assets/img/fondo-inicio-dancehall.jpg"); }
+.contenedorHouse { background-image: url("../assets/img/fondo-inicio-house.jpg"); }
+.contenedorContacto { background-image: url("../assets/img/fondo-inicio-contacto.jpg"); }

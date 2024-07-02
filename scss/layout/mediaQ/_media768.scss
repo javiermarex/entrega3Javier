@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .grid-container {
+        width: 80%;
+    }
+
+    .grid-primera-parte {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .grid-segunda-parte {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .galeria-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas medianas */
+    }
+
+    .galeria-grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .image-chica img {
+        height: 200px;
+    }
+}

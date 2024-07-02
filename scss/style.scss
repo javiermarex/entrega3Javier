@@ -1,0 +1,31 @@
+/*utilitis*/
+
+@import "./utilities/variables";
+
+
+/*base*/
+@import "./base/reset";
+
+
+
+/*layouts*/
+
+@import "./layout/body";
+@import "./layout/header";
+@import "./layout/footer";
+
+
+
+/*componentes*/
+
+@import  "./components/menu";
+@import "./components/h1header";
+@import "./components/primeraParte";
+@import "./components/segundaParte";
+@import "./components/galeria";
+@import "./components/mapa";
+
+/*mediaQ*/
+
+@import "./layout/mediaQ/media768";
+@import "./layout/mediaQ/media425";

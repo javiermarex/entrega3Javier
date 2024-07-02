@@ -1,0 +1,50 @@
+@media (max-width: 425px) {
+    .grid-container {
+        width: 100%;
+    }
+
+    .logo {
+        width: 30px;
+        margin-left: 10px;
+    }
+
+    .menu {
+        font-size: 0.875rem;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .h1Header {
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+
+    .text-bienvenidos p {
+        font-size: 1rem;
+    }
+
+    .grid-segunda-parte {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .redesSociales {
+        justify-content: center;
+    }
+
+    .galeria-grid {
+        grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
+        grid-template-rows: auto; /* Ajusta las filas automáticamente */
+    }
+
+    .image-chica img {
+        height: 200px;
+    }
+}
